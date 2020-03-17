@@ -4,7 +4,7 @@ Ashraful_time_series<- c(0,119,32,18,0,0,29,140,0,20,0,96,0,101,88,128,41,0,53,0
 print(Ashraful_time_series)
 plot(Ashraful_time_series)
 
-Ashrafultimeseries<- ts(Ashraful_time_series,start=c(2014,1),frequency = 12)
+Ashrafultimeseries<- ts(Ashraful_time_series,start=c(2006,1),frequency = 12)
 print(Ashrafultimeseries)
 plot(Ashrafultimeseries)
 
